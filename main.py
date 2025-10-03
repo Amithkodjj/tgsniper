@@ -29,7 +29,7 @@ class InputInvoiceStarGiftResale(TLObject):
         return result
 
 async def send_discord_notification(webhook_url, gift_info, profit_percentage, profit_amount, total_spent, total_bought):
-    if not webhook_url or webhook_url == "YOUR_DISCORD_WEBHOOK_URL_HERE":
+    if not webhook_url or webhook_url == "https://discord.com/api/webhooks/1423580445697773670/efzSDmOx9Yok0rlaTlGcHU0xTPQ0Z8sl6thEA_K-7b96b29vNGUe4CYUnfaoTxTCjsCs":
         return
     
     try:
@@ -90,7 +90,7 @@ async def send_discord_notification(webhook_url, gift_info, profit_percentage, p
 
 
 async def send_discord_summary(webhook_url, scan_count, total_resale, opportunities_found, scan_duration):
-    if not webhook_url or webhook_url == "YOUR_DISCORD_WEBHOOK_URL_HERE":
+    if not webhook_url or webhook_url == "https://discord.com/api/webhooks/1423580445697773670/efzSDmOx9Yok0rlaTlGcHU0xTPQ0Z8sl6thEA_K-7b96b29vNGUe4CYUnfaoTxTCjsCs":
         return
     
     try:
